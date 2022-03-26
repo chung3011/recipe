@@ -1,0 +1,14 @@
+dish1:
+  name: "Mango pudding"
+  category: category3
+  description: "Simple but delicious pudding"
+
+dish2:
+  name: "Blackberry & lemon fool"
+  category: category3
+  description: "Delicious pudding in just 10 minutes"
+
+dish3:
+  name: "Vanilla panna cotta"
+  category: category3
+  description: "Perfect light sweet for a chilled summer gathering"
