@@ -1,0 +1,43 @@
+ingredient1:
+  name: "mango"
+  description: "fruit"
+
+ingredient2:
+  name: "vanilla ice cream"
+  description: "cream"
+
+ingredient3:
+  name: "thick cream"
+  description: "cream"
+
+ingredient4:
+  name: "passion fruit"
+  description: "fruit"
+
+ingredient5:
+  name: "blackberry"
+  description: "fruit"
+
+ingredient6:
+  name: "sugar"
+  description: "sugar"
+
+ingredient7:
+  name: "lemon juice"
+  description: "juice"
+
+ingredient8:
+  name: "gelatine"
+  description: "gelatine"
+
+ingredient9:
+  name: "milk"
+  description: "milk"
+
+ingredient10:
+  name: "double cream"
+  description: "cream"
+
+ingredient11:
+  name: "strawberry"
+  description: "fruit"

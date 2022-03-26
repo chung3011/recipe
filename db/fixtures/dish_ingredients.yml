@@ -1,0 +1,64 @@
+dish_ingredient1:
+  dish: dish1
+  ingredient: ingredient1
+  measurement: "1"
+
+dish_ingredient2:
+  dish: dish1
+  ingredient: ingredient2
+  measurement: "6 scoops"
+
+dish_ingredient3:
+  dish: dish1
+  ingredient: ingredient3
+  measurement: "2 tbsp"
+
+dish_ingredient4:
+  dish: dish1
+  ingredient: ingredient4
+  measurement: "3"
+
+dish_ingredient5:
+  dish: dish2
+  ingredient: ingredient5
+  measurement: "200g"
+
+dish_ingredient6:
+  dish: dish2
+  ingredient: ingredient6
+  measurement: "3 tbsp"
+
+dish_ingredient7:
+  dish: dish2
+  ingredient: ingredient7
+  measurement: "1 tbsp"
+
+dish_ingredient8:
+  dish: dish2
+  ingredient: ingredient10
+  measurement: "250ml"
+
+dish_ingredient9:
+  dish: dish3
+  ingredient: ingredient8
+  measurement: "2.5 sheets"
+
+dish_ingredient10:
+  dish: dish3
+  ingredient: ingredient9
+  measurement: "150ml"
+
+dish_ingredient11:
+  dish: dish3
+  ingredient: ingredient10
+  measurement: "400ml"
+
+dish_ingredient12:
+  dish: dish3
+  ingredient: ingredient6
+  measurement: "60g"
+
+dish_ingredient13:
+  dish: dish3
+  ingredient: ingredient11
+  measurement: "2"
