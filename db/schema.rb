@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -10,40 +12,40 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_03_25_170020) do
-  create_table "categories", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+ActiveRecord::Schema[7.0].define(version: 20_220_325_170_020) do
+  create_table 'categories', force: :cascade do |t|
+    t.string 'name'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  create_table "dish_ingredients", force: :cascade do |t|
-    t.integer "dish_id", null: false
-    t.integer "ingredient_id", null: false
-    t.string "measurement"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["dish_id"], name: "index_dish_ingredients_on_dish_id"
-    t.index ["ingredient_id"], name: "index_dish_ingredients_on_ingredient_id"
+  create_table 'dish_ingredients', force: :cascade do |t|
+    t.integer 'dish_id', null: false
+    t.integer 'ingredient_id', null: false
+    t.string 'measurement'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['dish_id'], name: 'index_dish_ingredients_on_dish_id'
+    t.index ['ingredient_id'], name: 'index_dish_ingredients_on_ingredient_id'
   end
 
-  create_table "dishes", force: :cascade do |t|
-    t.string "name"
-    t.integer "category_id", null: false
-    t.string "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["category_id"], name: "index_dishes_on_category_id"
+  create_table 'dishes', force: :cascade do |t|
+    t.string 'name'
+    t.integer 'category_id', null: false
+    t.string 'description'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['category_id'], name: 'index_dishes_on_category_id'
   end
 
-  create_table "ingredients", force: :cascade do |t|
-    t.string "name"
-    t.string "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'ingredients', force: :cascade do |t|
+    t.string 'name'
+    t.string 'description'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  add_foreign_key "dish_ingredients", "dishes"
-  add_foreign_key "dish_ingredients", "ingredients"
-  add_foreign_key "dishes", "categories"
+  add_foreign_key 'dish_ingredients', 'dishes'
+  add_foreign_key 'dish_ingredients', 'ingredients'
+  add_foreign_key 'dishes', 'categories'
 end
