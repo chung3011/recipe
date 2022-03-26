@@ -1,0 +1,32 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+
+  Include:
+    - "app/**/*"
+    - "lib/**/*"
+    - "*/.gemspec"
+    - "Gemfile"
+  Exclude:
+    - "vendor/**/*"
+    - "bin/*"
+    - "db/**/*"
+    - "spec/**/*"
+    - "config/**/*"
+    - "app/views/**/*"
+    - "app/assets/**/*"
+    - "app/javascript/**/*"
+    - ".idea/**/*"
+    - "**/.DS_Store"
+    - "**/.keep"
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '*/.rake'
+    - 'spec/**/*.rb'
