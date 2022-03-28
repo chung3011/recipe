@@ -3,8 +3,8 @@
     <div class="col-9">
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><%= link_to "Recipe", root_path %></li>
-          <li class="breadcrumb-item"><%= link_to @dish.category.name , root_path %></li>
+          <li class="breadcrumb-item">Recipe</li>
+          <li class="breadcrumb-item"><%= @dish.category.name %></li>
           <li class="breadcrumb-item active" aria-current="page"><%= @dish.name %></li>
         </ol>
       </nav>
