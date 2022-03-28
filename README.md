@@ -6,14 +6,14 @@ Bootcampの自分サービスを作るもの。
 
 ## 開発環境
 - Ruby 3.0.2
-- Ruby on Rails 7.0.2
+- Rails 7.0.2
 
 ## 実行
-bundle install
-rails db:migrate
-rails db:seed
-rails assets:precompile
-rails s
+- bundle install
+- rails db:migrate
+- rails db:seed
+- rails assets:precompile
+- rails s
 
 ## URL
 `https://radiant-castle-72590.herokuapp.com/`
