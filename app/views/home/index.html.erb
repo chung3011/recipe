@@ -10,7 +10,9 @@
   <div class="col-9">
     <div class="d-flex flex-wrap">
       <% @dishes.each do |dish| %>
-        <%= render dish %>
+        <div class="col-4 p-3">
+          <%= render dish %>
+        </div>
       <% end %>
     </div>
   </div>
