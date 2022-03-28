@@ -62,3 +62,78 @@ dish_ingredient13:
   dish: dish3
   ingredient: ingredient11
   measurement: "2"
+
+dish_ingredient14:
+  dish: dish4
+  ingredient: ingredient12
+  measurement: "4"
+
+dish_ingredient15:
+  dish: dish4
+  ingredient: ingredient13
+  measurement: "100g"
+
+dish_ingredient16:
+  dish: dish4
+  ingredient: ingredient14
+  measurement: "100g"
+
+dish_ingredient17:
+  dish: dish4
+  ingredient: ingredient15
+  measurement: "3 tsp"
+
+dish_ingredient18:
+  dish: dish4
+  ingredient: ingredient16
+  measurement: "2 tsp"
+
+dish_ingredient19:
+  dish: dish5
+  ingredient: ingredient12
+  measurement: "4"
+
+dish_ingredient20:
+  dish: dish5
+  ingredient: ingredient13
+  measurement: "100g"
+
+dish_ingredient21:
+  dish: dish5
+  ingredient: ingredient14
+  measurement: "100g"
+
+dish_ingredient22:
+  dish: dish5
+  ingredient: ingredient15
+  measurement: "3 tsp"
+
+dish_ingredient23:
+  dish: dish5
+  ingredient: ingredient16
+  measurement: "2 tsp"
+
+dish_ingredient24:
+  dish: dish6
+  ingredient: ingredient12
+  measurement: "4"
+
+dish_ingredient25:
+  dish: dish6
+  ingredient: ingredient13
+  measurement: "100g"
+
+dish_ingredient26:
+  dish: dish6
+  ingredient: ingredient14
+  measurement: "100g"
+
+dish_ingredient27:
+  dish: dish6
+  ingredient: ingredient15
+  measurement: "3 tsp"
+
+dish_ingredient28:
+  dish: dish6
+  ingredient: ingredient16
+  measurement: "2 tsp"

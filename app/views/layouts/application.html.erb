@@ -11,6 +11,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <div class="d-flex justify-content-center">
+      <div class="col-10">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
