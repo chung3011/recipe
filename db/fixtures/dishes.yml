@@ -1,29 +1,41 @@
 dish1:
   name: "Mango pudding"
   category: category3
-  description: "Simple but delicious pudding"
+  description: "Simple but delicious pudding of tropical fruit"
+  image: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-659451_11-2aeee80.jpg?quality=90&webp=true"
+  cooking: "Peel and dice a large ripe mango\n\nWhizz to a purée in a food processor\n\nAdd 6 scoops of vanilla ice cream and 2 tbsp thick cream and whizz again\n\nSpoon into bowls and scoop of passion fruit over each."
 
 dish2:
   name: "Blackberry & lemon fool"
   category: category3
   description: "Delicious pudding in just 10 minutes"
+  image: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/fools-a48cee6.jpg?quality=90&webp=true"
+  cooking: "Tip the blackberries into a pan with 2 tbsp icing sugar\n\nPlus the lemon zest and juice\n\nSimmer until syrupy, then leave to cool\n\nChill for a few hours\n\nWhip the double cream with 1 tbsp icing sugar\n\nSwirl through most of the blackberry sauce\n\nServe in glasses with extra sauce and fresh blackberries on top."
 
 dish3:
   name: "Vanilla panna cotta"
   category: category3
   description: "Perfect light sweet for a chilled summer"
+  image: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/panna-cotta-638cd76.jpg?quality=90&webp=true"
+  cooking: "Pour the milk and cream into a saucepan with the sugar and vanilla seeds to scrape the seeds out of the pod, use the back of a knife\n\nStir to combine and bring to a simmer, then remove from the heat\n\nTake the gelatine out of the cold water and squeeze out the excess, then add to the milk mixture\n\nStir until completely dissolved\n\nTip into four ramekins and place in the fridge to set for at least a couple of hours."
 
 dish4:
   name: "Grilled figs with jamon serrano"
   category: category2
   description: "Spain's famous delicatessens."
+  image: "https://img.taste.com.au/gckt5f_h/w720-h480-cfill-q80/taste/2016/11/grilled-figs-with-jamon-serrano-and-manchego-38632-1.jpeg"
+  cooking: "Heat grill to medium-high. Trim base of figs if necessary, so they sit flat. Place 1 or 2 pieces of cheese on each fig half then wrap in jamon. Place figs on an oven tray, drizzle with oil and season with pepper.\n\nGrill figs for 2-3 minutes or until cheese melts and jamon starts to crisp. Place on a serving plate, drizzle with vinegar and serve immediately."
 
 dish5:
-  name: "Grilled figs with jamon serrano"
+  name: "Miso rump roast with gravy and crushed potatoes"
   category: category2
-  description: "Spain's famous delicatessens."
+  description: "Update your roast recipe"
+  image: "https://img.taste.com.au/eqnAs6Ll/w720-h480-cfill-q80/taste/2017/08/misorumproast-129067-1.jpg"
+  cooking: "Preheat oven to 200C (180C fan-forced). Whisk half the oil, miso paste, honey, soy and coriander seeds in a small bowl Rub the marinade over the beef and season with pepper.\n\nPlace the beef on a rack in a roasting dish. Add 3/4 cup water to the roasting dish (add more throughout the cooking process if needed). Roast for 40 minutes for rare, 50 minutes for medium and 60 minutes for well done. Cover the roast with foil if overbrowning. For ease and accuracy use a meat thermometer.\n\nRemove the beef, reserving pan juices, and cover loosely with foil and allow it to rest for 20 minutes before carving."
 
 dish6:
-  name: "Grilled figs with jamon serrano"
+  name: "Barbecued rump steak with rocket, pear"
   category: category2
-  description: "Spain's famous delicatessens."
+  description: "Simple next steak night."
+  image: "https://img.taste.com.au/QId7pbm8/w720-h480-cfill-q80/taste/2017/08/barbecuerumpsteakarugula-129101-1.jpg"
+  cooking: "Brush the steaks lightly with oil and season with a little sea salt and freshly ground pepper. Preheat the barbecue flat-plate to hot before adding the steaks.\n\nCook the steaks on one side until the first sign of moisture appears. Turn the steaks once only. Test for the degree of doneness with tongs. Rare is soft, medium feels springy and well done is very firm.\n\nRemove the steaks from the heat, cover loosely with foil and allow to rest for 2 to 4 minutes before serving.\n\nWhile the steaks are resting, add the balsamic vinegar, mustard, and honey to a bowl. Gradually whisk in the olive oil, and continue whisking until the dressing has emulsified. Season with salt and pepper."
