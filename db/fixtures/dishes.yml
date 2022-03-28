@@ -11,4 +11,19 @@ dish2:
 dish3:
   name: "Vanilla panna cotta"
   category: category3
-  description: "Perfect light sweet for a chilled summer gathering"
+  description: "Perfect light sweet for a chilled summer"
+
+dish4:
+  name: "Grilled figs with jamon serrano"
+  category: category2
+  description: "Spain's famous delicatessens."
+
+dish5:
+  name: "Grilled figs with jamon serrano"
+  category: category2
+  description: "Spain's famous delicatessens."
+
+dish6:
+  name: "Grilled figs with jamon serrano"
+  category: category2
+  description: "Spain's famous delicatessens."

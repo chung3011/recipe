@@ -41,3 +41,23 @@ ingredient10:
 ingredient11:
   name: "strawberry"
   description: "fruit"
+
+ingredient12:
+  name: "fig"
+  description: "fruit"
+
+ingredient13:
+  name: "manchego cheese"
+  description: "cheese"
+
+ingredient14:
+  name: "jamon serrano"
+  description: "meat"
+
+ingredient15:
+  name: "virgin olive oil"
+  description: "oil"
+
+ingredient16:
+  name: "sherry vinegar"
+  description: "vinegar"
