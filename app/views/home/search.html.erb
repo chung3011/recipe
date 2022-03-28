@@ -2,7 +2,9 @@
 <% if @search_dishes.present? %>
   <div class="d-flex flex-wrap">
     <% @search_dishes.each do |dish| %>
-      <%= render dish %>
+      <div class="col-4 p-3">
+        <%= render dish %>
+      </div>
     <% end %>
   </div>
 <% else %>
