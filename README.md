@@ -14,3 +14,6 @@ rails db:migrate
 rails db:seed
 rails assets:precompile
 rails s
+
+## URL
+`https://radiant-castle-72590.herokuapp.com/`
