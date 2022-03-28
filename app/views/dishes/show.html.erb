@@ -1,35 +1,33 @@
-<div class="container">
-  <div class="row">
-    <div class="col-9">
-      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">Recipe</li>
-          <li class="breadcrumb-item"><%= @dish.category.name %></li>
-          <li class="breadcrumb-item active" aria-current="page"><%= @dish.name %></li>
-        </ol>
-      </nav>
-      <div class="row">
-        <div class="col-5 p-3 d-flex justify-content-between">
-          <img src="<%= @dish.image %>" class="img-fluid" height="180">
-        </div>
-        <div class="col-7">
-          <%= simple_format(@dish.cooking) %>
-        </div>
+<div class="row">
+  <div class="col-9">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">Recipe</li>
+        <li class="breadcrumb-item"><%= @dish.category.name %></li>
+        <li class="breadcrumb-item active" aria-current="page"><%= @dish.name %></li>
+      </ol>
+    </nav>
+    <div class="row">
+      <div class="col-5 p-3 d-flex justify-content-between">
+        <img src="<%= @dish.image %>" class="img-fluid" height="180">
+      </div>
+      <div class="col-7">
+        <%= simple_format(@dish.cooking) %>
       </div>
     </div>
-    <div class="col-3 p-3">
-      <ul class="list-group">
-        <h5>Ingredient List</h5>
-        <% @dish.dish_ingredients.each do |dish_ingredient| %>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-            <div>
-              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-              <%= dish_ingredient.ingredient.name %>
-            </div>
-            <span class="badge bg-primary rounded-pill"><%= dish_ingredient.measurement %></span>
-          </li>
-        <% end %>
-      </ul>
-    </div>
+  </div>
+  <div class="col-3 p-3">
+    <ul class="list-group">
+      <h5>Ingredient List</h5>
+      <% @dish.dish_ingredients.each do |dish_ingredient| %>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+            <%= dish_ingredient.ingredient.name %>
+          </div>
+          <span class="badge bg-primary rounded-pill"><%= dish_ingredient.measurement %></span>
+        </li>
+      <% end %>
+    </ul>
   </div>
 </div>

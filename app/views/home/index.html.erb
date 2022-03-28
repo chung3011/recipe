@@ -1,19 +1,17 @@
-<div class="container">
-  <div class="row">
-    <div class="col-3 p-3">
-      <h4>Category</h4>
-      <ul class="list-group">
-        <% @categories.each do |category| %>
-          <li class="list-group-item list-group-item-action m-1 border rounded-1"><%= link_to category.name , category , class: "text-decoration-none text-reset" %></li>
-        <% end %>
-      </ul>
-    </div>
-    <div class="col-9">
-      <div class="d-flex flex-wrap">
-        <% @dishes.each do |dish| %>
-          <%= render dish %>
-        <% end %>
-      </div>
+<div class="row">
+  <div class="col-3 p-3">
+    <h4>Category</h4>
+    <ul class="list-group">
+      <% @categories.each do |category| %>
+        <li class="list-group-item list-group-item-action m-1 border rounded-1"><%= link_to category.name , category , class: "text-decoration-none text-reset" %></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="col-9">
+    <div class="d-flex flex-wrap">
+      <% @dishes.each do |dish| %>
+        <%= render dish %>
+      <% end %>
     </div>
   </div>
 </div>
