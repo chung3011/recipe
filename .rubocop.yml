@@ -1,5 +1,6 @@
 require:
   - rubocop-rails
+  - rubocop-rspec
 
 AllCops:
   NewCops: enable
@@ -9,11 +10,11 @@ AllCops:
     - "lib/**/*"
     - "*/.gemspec"
     - "Gemfile"
+    - "spec/**/*"
   Exclude:
     - "vendor/**/*"
     - "bin/*"
     - "db/**/*"
-    - "spec/**/*"
     - "config/**/*"
     - "app/views/**/*"
     - "app/assets/**/*"
@@ -30,3 +31,15 @@ Metrics/BlockLength:
     - 'Rakefile'
     - '*/.rake'
     - 'spec/**/*.rb'
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
