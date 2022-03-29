@@ -21,5 +21,7 @@ jobs:
         run: bundle install
       - name: Run tests
         run: bundle exec rails test:all
+      - name: Rspec
+        run: bundle exec rspec
       - name: rubocop
         run: rubocop
